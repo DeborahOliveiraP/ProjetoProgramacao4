@@ -1,4 +1,4 @@
-package br.com.facol.controller;
+package controler;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.facol.dao.ContaDao;
-import br.com.facol.domain.conta.Conta;
+import dao.ContaDao;
+import domain.conta.Conta;
 
 @WebServlet(urlPatterns = "/listar-contas")
 public class ListarContasServlet extends HttpServlet {

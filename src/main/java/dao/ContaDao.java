@@ -1,4 +1,5 @@
 package dao;
+
 import java.util.List;
 
 import domain.conta.Conta;
@@ -26,3 +27,4 @@ public class ContaDao {
 	}
 
 }
+

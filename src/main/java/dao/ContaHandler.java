@@ -1,7 +1,7 @@
 package dao;
 
-import br.com.facol.domain.conta.Conta;
-import br.com.facol.domain.conta.ContaImposto;
+import domain.conta.Conta;
+import domain.conta.ContaImposto;
 
 public class ContaHandler {
 	

@@ -3,7 +3,8 @@ package infra;
 import java.util.ArrayList;
 import java.util.List;
 
-import domain.Conta;
+import domain.conta.Conta;
+import domain.conta.ContaImposto;
 
 public class Banco {
 	
@@ -24,3 +25,6 @@ public class Banco {
 	public static List<Conta> getContasImposto(){
 		return Banco.contasImposto;
 	}
+
+}
+

@@ -1,7 +1,7 @@
 package dao;
 
-import br.com.facol.domain.conta.Conta;
-import br.com.facol.infra.Banco;
+import domain.conta.Conta;
+import infra.Banco;
 
 public class SalvarConta implements AcaoPosCriacaoBanco {
 

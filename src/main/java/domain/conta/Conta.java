@@ -1,6 +1,9 @@
-package domain;
+package domain.conta;
 
 import java.math.BigDecimal;
+
+import domain.cliente.Cliente;
+import domain.funcionario.Funcionario;
 
 public abstract class Conta {
 	private final int digitoVerificador = 9;

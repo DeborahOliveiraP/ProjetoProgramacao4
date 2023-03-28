@@ -1,4 +1,4 @@
-package br.com.facol.controller;
+package controler;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.facol.dao.ContaDao;
-import br.com.facol.dao.ContaHandler;
-import br.com.facol.dao.EnvioEmail;
-import br.com.facol.dao.NotificarBanco;
-import br.com.facol.dao.SalvarConta;
-import br.com.facol.domain.conta.Conta;
+import dao.ContaDao;
+import dao.ContaHandler;
+import dao.EnvioEmail;
+import dao.NotificarBanco;
+import dao.SalvarConta;
+import domain.conta.Conta;
 
 @WebServlet(urlPatterns = "/cadastro-conta")
 public class CadastrarContaServlet extends HttpServlet {

@@ -1,6 +1,6 @@
 package dao;
 
-import br.com.facol.domain.conta.Conta;
+import domain.conta.Conta;
 
 public interface AcaoPosCriacaoBanco {
 	
